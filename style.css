@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(255, 208, 0);
+}
+
+*{
+    margin: 20;
+    padding: 20;
+    font-family:monospace
+    box-sizing:  border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh; 
+    background-size: cover;
+    background-position: left;
+    padding: 20px 40%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+nav ul{
+    list-style:none;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+}
+nav ul li{
+display: inline-block;
+margin: 10px 20px;
+}
+nav ul li a{
+    color: #f30909;
+    text-decoration: underline;
+}
+.btn{
+    display:block;
+    align-items: center;
+    padding: 5px 20px;
+    border: 0;
+    outline: 5px solid white;
+    border-radius: 20px;
+    background-color: #330ce0;
+    color: #fbff00;
+    font-weight: 500px;
+    cursor: pointer;
+}
+.content{
+    margin-top: 14px;
+    color: #ff0000;
+    max-width:max-content;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600px;
+    line-height: 85px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.content form{
+    display: flex;
+    align-items:center;
+    background-color: #c97f7f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+.content form input{
+    border: 0px;
+    outline: 0px;
+    width: 80%;
+    font-size: 26px;
+    padding-right: 20px;
+}
+.content form .btn{
+    font: size 15px; 
+    padding: 10px 30px;
+
+}
+.content p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    font-weight: 400px;
+}
